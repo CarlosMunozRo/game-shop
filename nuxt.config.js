@@ -56,11 +56,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: [
+      "gsap"
+    ]
   },
   env: {
     apiKey: process.env.RAWG_API_KEY,
   },
   server: {
     host: '0',
-  }
+  },
+  
 }
