@@ -58,7 +58,7 @@ export default {
   build: {
   },
   env: {
-    apiKey: process.env.GAMES_API_KEY,
+    apiKey: process.env.RAWG_API_KEY,
   },
   server: {
     host: '0',
